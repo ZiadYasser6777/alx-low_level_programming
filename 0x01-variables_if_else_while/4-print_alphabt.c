@@ -17,14 +17,6 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	ch = 'A';
-	while (ch <= 'Z')
-	{
-	if (ch == 'q' || ch == 'e')
-	ch++;
-		putchar(ch);
-		ch++;
-	}
 	putchar ('\n');
 	return (0);
 }
